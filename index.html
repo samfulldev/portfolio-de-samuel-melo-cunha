@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Samuel Melo Cunha">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<header class="cabecalho">
+  <nav>
+    <ul class="icones">
+      <li><a href="#">Home</a></li>
+      <li><a href="#projetoId">Meus Projetos</a></li>
+      <li><a href="#contatos">Mensagem</a></li>
+      <li><a href="https://www.instagram.com/samuel_melocunha" target="_blank"><img src="instagram.png" alt="icone do Instagram" width="30" height="30"></a></li>
+      <li><a href="https://wa.me/+5585991969494" target="_blank" class="whatsapp"><img src="whatsapp.png" alt="icone do whatsapp" width="30" height="30"></a></li>
+      <li><a href="mailto:samuelcunhace@gmail.com" target="_blank"><img src="gmail.png" alt="icone do gmail" width="30" height="30"></a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+<section class="apresentacao">
+  <div class="texto">  
+  <h1>Samuel Melo Cunha</h1>
+  <h2>Desenvolvedor FullStack</h2>
+  <br>
+  <p>Bem-vindos ao meu portfólio</p>
+  </div>
+  <div class="foto">
+    <img src="foto.png" alt="foto de Samuel">
+  </div>
+</section>
+
+<section id="sobremim" class="sobre">
+
+      <p>
+        Olá! Eu sou Samuel, um desenvolvedor FullStack apaixonado por criar experiências digitais envolventes. Além de ser um estudante de programação, eu também curso Análise e Desenvolvimento de Sistemas no centro universitário Ari de Sá - UniAri. Tenho me dedicado a aprimorar minhas habilidades em desenvolvimento front-end e back-end. E estou sempre em busca de novos desafios.
+      </p> <br>
+      <p>Tenho conhecimentos de Html, CSS e JavaScript para desenvolver front-end. Dessa forma, consigo criar a estrutura, o estilo e a interatividade de uma página web, como esta do meu portfolio. No momento estou aprendendo a fazer back-end, pois quero criar APIs e trabalhar com criação e manipulação de dados.</p>
+ 
+    </section>
+
+<section id="projetoId" class="projetos"> 
+ 
+<h1>Visite Meus Projetos</h1>
+
+<div class="card">
+    <h2>Um site de poesias e crônicas autorais.</h2>
+    <img src="imagempoesia.png" alt="Projeto de poesias e crônicas" class="projeto-img">
+    <a href="https://samfulldev.github.io/poesiasealgumascronicas/" target="_blank" class="btn-projeto">Ver Projeto</a>
+</div>
+
+<div class="card">
+    <h2>Um blog sobre cinema, literatura e música.</h2>
+    <img src="imagemblog.png" alt="Blog sobre cinema, literatura e música" class="projeto-img">
+    <a href="https://samfulldev.github.io/tresdosesdeartes/" target="_blank" class="btn-projeto">Ver Projeto</a>
+</div>
+
+<div class="card">
+    <h2>Um jogo do tipo Flappy.</h2>
+    <img src="imagemjogo.png" alt="Jogo Flappy" class="projeto-img">
+    <a href="https://samfulldev.github.io/jogo-da-bolinha/" target="_blank" class="btn-projeto">Ver Projeto</a>
+</div>
+
+<section id="contatos" class="contato-section">
+
+  <h1>Fale comigo</h1>
+
+ <form class="form-contato" 
+      action="https://formsubmit.co/e2acd4f0029da542703826b46baf3475" method="POST">
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+    <!-- Redirecionamento após envio -->
+    <input type="hidden" name="_after" value="redirect">
+    <input type="hidden" name="_redirect" value="https://samfulldev.github.io/portfolio-de-samuel-melo-cunha/Obrigado.html">
+    <input type="hidden" name="_next" value="https://samfulldev.github.io/portfolio-de-samuel-melo-cunha/Obrigado.html">
+
+    <!-- Assunto do e-mail -->
+    <input type="hidden" name="_subject" value="Nova mensagem do Portfólio">
+    <button type="submit" class="btn-enviar">Enviar</button>
+
+</form>
+
+
+</section>
+
+
+
+<footer class="footer">
+<h2>Contatos:</h2>
+<a href="https://www.linkedin.com/in/samuelmelocunha/" target="_blank">LinkedIn: samuelmelocunha</a> 
+<p>© 2025 Samuel Melo Cunha. Todos os direitos reservados.</p>
+</footer>
+  
+</body>
+</html>
